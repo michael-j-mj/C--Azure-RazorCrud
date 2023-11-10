@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmbg55d6c3kGhyehkOakB9wAAAAACAAAAAAAQZgAAAAEAACAAAAD5XtkWYNt0j53h5EV9+dgETSUhHmSMVCdQ9VMR/Ye2HAAAAAAOgAAAAAIAACAAAABtsDnpW8Q9ChFxpeyyjYJ8MY2e2aGkb+oa1SYXg90CjIAAAABrWy+mvIpsdWeBKsypKgbp2D7d32oraI2XFwjpG75OSqJS7XGp46wlALVheY1N0coBymNKJHFG/c2dobZUOgIiUuO+wtRavyMtT5dyw9V59keJXDXnHakuE4ZsW3lJvQA3oEyLFY9G2gpAX/EL0tMNGOUQBHVHCM9w1yu3Qc24BEAAAAD7n12AU/ce/0veksWbRzBoz07oyK7JGzS60yWfTu2E7WcWQkpCewnpdFp666l1nabTudpl6qnp3SVooq5YQ+3p</EncryptedPassword>
+    <History>True|2023-11-10T03:27:40.2226129Z;False|2023-11-09T23:20:16.4227834-04:00;False|2023-11-09T23:16:20.7701509-04:00;False|2023-11-09T23:15:23.8868237-04:00;False|2023-11-09T23:10:23.2108813-04:00;False|2023-11-09T23:08:42.5553570-04:00;False|2023-11-09T23:06:42.8030015-04:00;False|2023-11-09T23:04:44.6220806-04:00;False|2023-11-09T23:00:48.1781904-04:00;False|2023-11-09T22:50:22.1250801-04:00;False|2023-11-09T22:49:20.1334180-04:00;False|2023-11-09T22:48:41.9692656-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:gamedb.database.windows.net,1433%3bInitial Catalog=CategoryCrud_db%3bUser Id=michaeljun%40gamedb%3bPassword=Nothing1%40</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="RazorCrud.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:gamedb.database.windows.net,1433%3bInitial Catalog=CategoryCrud_db%3bUser Id=michaeljun%40gamedb%3bPassword=Nothing1%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

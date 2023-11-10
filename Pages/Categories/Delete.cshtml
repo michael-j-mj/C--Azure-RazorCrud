@@ -1,0 +1,26 @@
+﻿@page
+@model RazorCrud.Pages.Categories.DeleteModel
+@{
+}
+<form method="post">
+    <div class="border p-3 mt-4">
+        <input hidden asp-for="Category.Id" />
+        <div class="row pb-2">
+            <h2 class="text-primary pl-3"> Delete Category</h2>
+            <hr/>
+
+        </div>
+        <div class="mb-3" >
+           <label asp-for="Category.Name"></label> 
+            <input asp-for="Category.Name" disabled />
+       
+        </div>
+        <div class="mb-3">
+            <label asp-for="Category.DisplayOrder"></label>
+            <input asp-for="Category.DisplayOrder" disabled  /> 
+        </div>
+        <button type="submit" class="btn btn-warning" style="width:150;"> Delete</button> 
+        <a class="btn btn-secondary" asp-page="Index" style="width:150px;"> Back to List</a>
+    </div>
+</form>
+
